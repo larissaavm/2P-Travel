@@ -7,7 +7,7 @@ app = Flask(__name__)
 CORS(app)
 
 # Configuração da OpenAI (substitua pela chave de API correta)
-openai.api_key = "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"
+openai.api_key = ""
 
 @app.route('/buscar-viagens', methods=['POST'])
 def buscar_viagens():
